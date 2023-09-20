@@ -24,7 +24,6 @@ async function getJoke() {
     jokeEl.innerText = "An error happend, try again later"
     btnEl.disabled = true
     btnEl.innerText = "Tell me a joke"
-
     console.log(error)
   }
 }
