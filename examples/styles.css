@@ -1,0 +1,42 @@
+/* *{
+  background-color: gray;
+} */
+
+p{
+  background-color: aliceblue;
+}
+p ~ h1,p{
+  color: pink;
+}
+/* div  p{
+  color: blue;
+   
+   text-decoration: underline;
+
+} */
+
+div > .extra {
+  color: red;
+}
+
+h1 + h3{
+  background-color: lightblue;
+}
+
+
+a:visited {
+  color: green;
+}
+
+div :first-child{
+  color: red;
+  background-color: blue;
+}
+
+/* div::before{
+  content: '....................';
+} */
+
+li:nth-child(even){
+  background-color: yellow;
+}

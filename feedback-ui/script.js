@@ -19,7 +19,7 @@ ratingEls.forEach((ratingEl) => {
 btnEl.addEventListener("click", () => {
   if (selectedRating !== "") {
     containerEl.innerHTML = `
-    <strong>Thank You!</strong> 
+    <strong>Thank You!</strong>
     <br>
     <strong>Feedback : ${selectedRating}</strong>
     <p>We'll use your feedback to improve our customer support.</p>
