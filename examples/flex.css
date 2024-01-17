@@ -1,0 +1,27 @@
+html{
+  box-sizing: border-box;
+}
+*, *:after, *:before{
+  box-sizing: inherit;
+}
+
+#header{
+  border: 10px solid blue ;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: start;
+  height: 500px;
+  align-items: stretch;
+  align-content: normal;
+
+}
+#header div{
+  border: 2px solid red;
+  padding: 10px;
+  background-color: bisque;
+  /* width: 100px; */
+  /* min-width: 100px; */
+  max-height: 150px;
+}

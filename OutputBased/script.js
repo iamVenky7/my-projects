@@ -5,16 +5,16 @@
 // console.log(typeof b)
 // console.log(c)
 
-2
-const a = [{ name: "a" }, { name: "b" }, { name: "c" }]
-const b = [...a]
-b.push({ name: "d" })
-b[0].name = "venky"
+// 2
+// const a = [{ name: "a" }, { name: "b" }, { name: "c" }]
+// const b = [...a]
+// b.push({ name: "d" })
+// b[0].name = "venky"
 
-console.log(a == b)
-console.log(a.length, b.length, a[1].name, b[0].name)
+// console.log(a == b)
+// console.log(a.length, b.length, a[1].name, b[0].name)
 
-3
+// 3
 // var day = "Normal day"
 
 // function closure() {
@@ -28,14 +28,14 @@ console.log(a.length, b.length, a[1].name, b[0].name)
 
 // closure()()
 
-4
+// 4
 // const a = [{ name: "a" }, { name: "b" }, { name: "c" }]
 // const b = [...a]
 // b.push({ name: "d" })
 // b[0].name = "lovelesh"
 // console.log(a.length, b.length, a[0].name, b[0].name)
 
-5
+// 5
 
 // class Site {
 //   debugger
@@ -62,7 +62,7 @@ console.log(a.length, b.length, a[1].name, b[0].name)
 // console.log(site.getHandle().getName2())
 // console.log(site.getHandle().getName3())
 
-6
+// 6
 // function day() {
 //   this.prop1 = "One"
 //   this.prop2 = "Two"
@@ -76,3 +76,12 @@ console.log(a.length, b.length, a[1].name, b[0].name)
 // console.log(a.prop1)
 // console.log(a.prop2)
 // console.log(this.prop1)
+
+// 7
+
+console.log(10 > 9)
+console.log(10 > "9")
+console.log("10" > 9)
+console.log("10" > "9")
+console.log("10" - 9)
+console.log("beta" > "alpha")
